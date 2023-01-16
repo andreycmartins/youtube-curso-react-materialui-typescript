@@ -3,12 +3,11 @@ import { AppRoutes } from "./routes"
 import { AppThemeProvider } from "./shared/contexts/ThemeContext"
 import { DarkTheme, LightTheme } from "./shared/themes"
 
-
 export const App = () => {
   return (
     <AppThemeProvider>
       <BrowserRouter>
-        <AppRoutes/>
+        <AppRoutes />
       </BrowserRouter>
     </AppThemeProvider>
   )
